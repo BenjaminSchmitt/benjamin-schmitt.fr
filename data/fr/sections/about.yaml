@@ -1,0 +1,75 @@
+# section information
+section:
+  name: A propos
+  id: about
+  enable: true
+  weight: 1
+  showOnNavbar: true
+  template: sections/about.html
+
+# your designation
+designation: Tech lead
+# your company information
+company:
+  name: CGI Finance (Groupe Société Générale)
+  url: "https://www.cgifinance.fr/"
+
+# your resume. this file path should be relative to you "static" directory
+# resume: "files/resume.pdf"
+
+# a summary about you
+summary: "Tech lead avec 2 (riches!) années d'expérience, au sein d'une **start-up interne** d'une dizaine de personnes, 
+  qui produit une [application mobile](https://www.occazio.fr) exploitée dans [Azure](https://azure.microsoft.com/fr-fr/).
+  **Référent** sur les domaines backend / infrastructure / usine logicielle / CI CD, j'aime relever les défis quotidiens 
+  apportés par l'application et je mets un point d'honneur à sans cesse nous améliorer."
+
+# your social links
+# give as many as you want. use font-awesome for the icons.
+socialLinks:
+- name: Email
+  icon: "fas fa-envelope"
+  url: "contact@benjamin-schmitt.fr"
+
+- name: Github
+  icon: "fab fa-github"
+  url: "https://www.github.com/BenjaminSchmitt"
+
+- name: LinkedIn
+  icon: "fab fa-linkedin"
+  url: "https://www.linkedin.com/in/benjamin-schmitt-81bab2128"
+
+# Show your badges
+# You can show your verifiable certificates from https://www.credly.com.
+# You can also show a circular bar indicating the level of expertise on a certain skill
+badges:
+
+# - type: certification
+#   name: Artificial Intelligence and Machine Learning
+#   url: "https://www.credly.com/org/grupo-bancolombia/badge/artificial-intelligence-and-machine-learning"
+#   badge: "https://images.credly.com/size/680x680/images/e027514f-9d07-4b29-862f-fe21a8aaebf1/ae.png"
+
+- type: soft-skill-indicator
+  name: Communication
+  percentage: 95
+  color: blue
+
+- type: soft-skill-indicator
+  name: Autonomie
+  percentage: 95
+  color: green
+
+- type: soft-skill-indicator
+  name: Esprit d'équipe
+  percentage: 80
+  color: yellow
+
+- type: soft-skill-indicator
+  name: Amélioration continue
+  percentage: 90
+  color: orange
+
+# you can also provide color code instead of the color name
+# - type: soft-skill-indicator
+#   name: Example 1
+#   percentage: 75
+#   color: "#00adb5"

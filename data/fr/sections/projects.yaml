@@ -1,24 +1,21 @@
 # section information
 section:
-  name: প্রোজেক্ট
+  name: Projets
   id: projects
   enable: true
-  weight: 4
+  weight: 3
   showOnNavbar: true
-  template: sections/projects.html
   # Can optionally hide the title in sections
   # hideTitle: true
 
 # filter buttons
 buttons:
-- name: সব বিষয়
+- name: Tous
   filter: "all"
-- name: প্রোফেসনাল
-  filter: "professional"
-- name: প্রাতিষ্ঠানিক
-  filter: "academic"
-- name: শখের প্রোজেক্ট
-  filter: "hobby"
+- name: Professionnel
+  filter: "pro"
+- name: Personnel
+  filter: "perso"
 
 # your projects
 projects:
@@ -39,13 +36,6 @@ projects:
   #url: ""
   summary: An Open Source Machine Learning Framework for Everyone.
   tags: ["professional", "machine-learning"]
-
-- name: A sample academic paper
-  role: Team Lead
-  timeline: "Jan 2017 - Nov 2017"
-  url: "https://www.example.com"
-  summary: Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente eius reprehenderit animi suscipit autem eligendi esse amet aliquid error eum. Accusantium distinctio soluta aliquid quas placeat modi suscipit eligendi nisi.
-  tags: ["academic","iot"]
 
 - name: Nocode
   logo: /images/sections/projects/no-code.png

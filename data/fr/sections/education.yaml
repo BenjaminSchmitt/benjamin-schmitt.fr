@@ -1,0 +1,32 @@
+# section information
+section:
+  name: Formation
+  id: education
+  template: sections/education.html # Use "sections/education-alt.html for alternate template.
+  enable: true
+  weight: 7
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+degrees:
+- name: Ingénieur par apprentissage en Télécommunications et Informatique
+  icon: fa-graduation-cap
+  timeframe: 2017-2020
+  institution:
+    name: IMT Nord Europe (ex IMT Lille Douai) - Lille
+    url: "https://imt-nord-europe.fr/"
+
+- name: DUT Informatique
+  icon: fa-graduation-cap
+  timeframe: 2015-2017
+  institution:
+    name: IUT du Limousin - Limoges
+    url: "https://www.iut.unilim.fr/"
+
+- name: Baccalauréat scientifique
+  icon: fa-university
+  timeframe: 2012-2015
+  institution:
+    name: Lycée Turgot - Limoges
+    url: "https://www.lyc-turgot.ac-limoges.fr/"
