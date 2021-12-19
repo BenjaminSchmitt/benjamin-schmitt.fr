@@ -18,10 +18,14 @@ company:
 # resume: "files/resume.pdf"
 
 # a summary about you
-summary: "Tech lead avec 2 (riches!) années d'expérience, au sein d'une **start-up interne** d'une dizaine de personnes, 
-  qui produit une [application mobile](https://www.occazio.fr) exploitée dans [Azure](https://azure.microsoft.com/fr-fr/).
-  **Référent** sur les domaines backend / infrastructure / usine logicielle / CI CD, j'aime relever les défis quotidiens 
-  apportés par l'application et je mets un point d'honneur à sans cesse nous améliorer."
+summary: 
+  "Tech lead avec 2 (riches!) années d'expérience, au sein d'une **start-up interne** d'une dizaine de personnes, 
+  qui produit - principalement - une [application mobile](https://www.occazio.fr) exploitée dans [Azure](https://azure.microsoft.com/fr-fr/). \n\n
+
+  **Référent** sur les domaines backend / infrastructure / usine logicielle / CICD. \n\n
+
+  J'aime l'IT, car c'est un domaine hautement complexe, qui permet de s'améliorer chaque jour si l'on est prêt à se remettre en question, 
+  et dans lequel il est possible de construire tout ce qu'il est possible d'imaginer (ou presque). "
 
 # your social links
 # give as many as you want. use font-awesome for the icons.
@@ -38,15 +42,13 @@ socialLinks:
   icon: "fab fa-linkedin"
   url: "https://www.linkedin.com/in/benjamin-schmitt-81bab2128"
 
-# Show your badges
-# You can show your verifiable certificates from https://www.credly.com.
-# You can also show a circular bar indicating the level of expertise on a certain skill
+
 badges:
 
-# - type: certification
-#   name: Artificial Intelligence and Machine Learning
-#   url: "https://www.credly.com/org/grupo-bancolombia/badge/artificial-intelligence-and-machine-learning"
-#   badge: "https://images.credly.com/size/680x680/images/e027514f-9d07-4b29-862f-fe21a8aaebf1/ae.png"
+- type: soft-skill-indicator
+  name: Pragmatisme
+  percentage: 100
+  color: "#f2cec5"
 
 - type: soft-skill-indicator
   name: Communication
@@ -68,8 +70,12 @@ badges:
   percentage: 90
   color: orange
 
-# you can also provide color code instead of the color name
-# - type: soft-skill-indicator
-#   name: Example 1
-#   percentage: 75
-#   color: "#00adb5"
+- type: soft-skill-indicator
+  name: Veille
+  percentage: 100
+  color: "#c7c835"
+
+# - type: certification
+#   name: Artificial Intelligence and Machine Learning
+#   url: "https://www.credly.com/org/grupo-bancolombia/badge/artificial-intelligence-and-machine-learning"
+#   badge: "https://images.credly.com/size/680x680/images/e027514f-9d07-4b29-862f-fe21a8aaebf1/ae.png"

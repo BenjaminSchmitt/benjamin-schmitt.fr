@@ -19,37 +19,63 @@ buttons:
 
 # your projects
 projects:
-- name: Kubernetes
-  logo: /images/sections/projects/kubernetes.png
-  role: Contributor
-  timeline: "March 2018 - Present"
-  repo: https://github.com/kubernetes/kubernetes # If your project is a public repo on GitHub, then provide this link. it will show star count.
-  #url: ""  # If your project is not a public repo but it has a website or any external details url then provide it here. don't provide "repo" and "url" simultaneously.
-  summary: Production-Grade Container Scheduling and Management.
-  tags: ["professional", "kubernetes", "cloud"]
 
-- name: Tensorflow
+- name: Occazio
+  role: Lead tech
+  timeline: "2018 - Aujourd'hui"
+  url: "https://www.occazio.fr/"
+  summary: Application mobile de mise en relation entre acheteurs et vendeurs de véhicules d'occasion.
+  tags: ["pro", "C#", ".NET Core", "gRPC", "RabbitMQ", "Azure", "AKS", "CosmosDb"]
+
+- name: Reconnaissance d'orientation de voitures
   logo: /images/sections/projects/tensorflow.png
-  role: Developer
-  timeline: "Jun 2018 - Present"
-  repo: https://github.com/tensorflow/tensorflow
-  #url: ""
-  summary: An Open Source Machine Learning Framework for Everyone.
-  tags: ["professional", "machine-learning"]
+  timeline: "2019"
+  summary: Reconnaissance de l'orientation d'une voiture sur une image.
+  tags: ["pro", "deep learning","tensorflow serving", "keras"]
 
-- name: Nocode
-  logo: /images/sections/projects/no-code.png
-  role: Nothing
-  timeline: "Oct 2019 - Dec 2019"
-  repo: https://github.com/kelseyhightower/nocode
-  #url: ""
-  summary: The best way to write secure and reliable applications. Write nothing; deploy nowhere.
-  tags: ["hobby", "fun"]
+- name: SIV ANTS
+  role: Lead dev
+  timeline: "2021"
+  logo: /images/sections/projects/ants.jpg
+  summary: 
+    Exploitation et mise en qualité du fichier des véhicules immatriculés Français. 
+    Identification du véhicule sur base de son numéro d'immatriculation, puis croisement avec le référentiel [Argus](https://www.largus.fr/)
+    pour cotations.
+  tags: ["pro", "C#", ".NET Core", "PostgreSQL", "k8s"]
 
-- name: Toha
-  logo: /images/sections/projects/toha.png
-  role: Owner
-  timeline: "Jun 2019 - Present"
-  repo: https://github.com/hossainemruz/toha
-  summary: A Hugo theme for personal portfolio.
-  tags: ["hobby","hugo","theme","professional"]
+- name: Reconnaissance de visages
+  logo: /images/sections/projects/face-recognition.jpg
+  timeline: "2019"
+  summary: POC de reconnaissance de visages pour limiter les fraudes.
+  tags: ["pro", "python"]
+
+- name: Homelab Kubernetes
+  logo: /images/sections/projects/k3s.png
+  timeline: "Depuis 2020"
+  summary: 
+    Homelab [k3s](https://k3s.io/) pour tester différentes configurations (single node, multi nodes HA)
+    et différentes applications [self hosted](https://www.computerhope.com/jargon/s/self-hosting.htm) 
+    (serveur git, registre de conteneurs, opérateurs k8s, etc ...). Utilisation d'un serveur 
+    [PowerEdge](https://www.dell.com/fr-fr/work/shop/serveurs-dell-poweredge/sc/servers) et de l'hyperviseur
+    open source [Proxmox](https://www.proxmox.com/en/).
+  tags: ["perso", "k8s", "homelab"]
+
+- name: Réseau personnel
+  logo: /images/sections/projects/wifi.png
+  timeline: "Depuis 2020"
+  repo: https://github.com/BenjaminSchmitt/caspman-config
+  summary: 
+    Mise en place d'un réseau personnel avec routeur, switch et point d'accès [Mikrotik](https://mikrotik.com/). 
+    VLAN, firewall, serveur DNS bloqueur de pubs / trackers, DHCP, LAN 10Gb/s, VPN IPSec.
+  tags: ["perso", "reseau"]
+
+- name: Sécurité des données
+  logo: /images/sections/projects/securite.png
+  timeline: "Depuis 2020"
+  summary: 
+    Mise en place d'un [NAS](https://fr.wikipedia.org/wiki/Serveur_de_stockage_en_r%C3%A9seau) avec stratégie 
+    de backup [3-2-1](https://www.backblaze.com/blog/the-3-2-1-backup-strategy/).
+    Migration Gmail vers [Protonmail](https://protonmail.com/fr/).
+    Mise en place gestionnaire de mots de passe [Vaultwarden](https://github.com/dani-garcia/vaultwarden) (2FA, [fail2ban](https://www.fail2ban.org/wiki/index.php/Main_Page)) sur 
+    VPS [DigitalOcean](https://www.digitalocean.com/).
+  tags: ["perso", "reseau", "securite"]

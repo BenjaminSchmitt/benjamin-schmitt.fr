@@ -14,15 +14,11 @@ languages:
 # Force a locale to be use, really useful to develop the application ! Should be commented in production, the "weight" should rocks.
 DefaultContentLanguage: fr
 
-# Allow raw html in markdown file
 markup:
-  goldmark:
-    renderer:
-      unsafe: true
   tableOfContents:
-    startLevel: 2
+    startLevel: 1
     endLevel: 6
-    ordered: false
+    ordered: true
 
 # At least HTML and JSON are required for the main HTML content and
 # client-side JavaScript search
@@ -33,7 +29,7 @@ outputs:
     - JSON
 
 # Enable Google Analytics
-# googleAnalytics: UA-122321624-2
+googleAnalytics: G-52SBMJ4NPH
 
 # Enable global emoji support
 enableEmoji: true
@@ -62,7 +58,7 @@ params:
       enable: true
     # Enable and configure blog posts
     blog:
-      enable: false
+      enable: true
       # Share post on different social media
       shareButtons:
         facebook: true

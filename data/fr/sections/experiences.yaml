@@ -3,7 +3,7 @@ section:
   name: Experiences
   id: experiences
   enable: true
-  weight: 3
+  weight: 2
   showOnNavbar: true
   # Can optionally hide the title in sections
   # hideTitle: true 
@@ -22,18 +22,19 @@ experiences:
       - Poursuite des développements backend pour [Occazio](https://www.occazio.fr/)
       - Migration d'[Occazio](https://www.occazio.fr/) sur le cloud [Azure](https://azure.microsoft.com/fr-fr/)
       - Mise en production d'[Occazio](https://www.occazio.fr/)
+      - Reprise des domaines infrastructure, usine logicielle, CICD
       - Optimisation des coûts d'exploitation (FinOps) d'[Occazio](https://www.occazio.fr/)
       - Amélioration de la qualité logicielle et normalisation des process de développement en collaboration avec l'équipe
       - Encadrement technique, formation des arrivants
+      - Documentations
 
   - designation: Apprenti ingénieur DevOps
-    start: Juil. 2020
-    end: Sept. 2017
+    start: Sept. 2017
+    end: Juil. 2020
     responsibilities:
       - "Création d'une startup interne: mobilier, infrastructure technique"
-      - "Spécification, développement, documentation, tests, supervision de Web APIs pour une application mobile: [Occazio](https://www.occazio.fr/)"
-      - "Exploitation des services OnPrem ([OpenShift](https://www.redhat.com/fr/technologies/cloud-computing/openshift)) puis sur le cloud [Azure](https://azure.microsoft.com/fr-fr/)"
-      - "Deep-learning: création, entraînement, et exploitation de de modèles de reconnaissances [CNN](https://en.wikipedia.org/wiki/Convolutional_neural_network)"
+      - "Spécification, développement, documentation, tests, supervision de Web APIs pour une application mobile"
+      - "Exploitation des services OnPrem (avec [OpenShift](https://www.redhat.com/fr/technologies/cloud-computing/openshift))"
       - "Technologies: [.NET Core](https://docs.microsoft.com/en-us/dotnet/core/introduction), [MongoDB](https://www.mongodb.com/fr-fr), [PostgreSQL](https://www.postgresql.org/) 
         [gRPC](https://grpc.io/), [Kubernetes](https://kubernetes.io/)"
 
@@ -48,7 +49,7 @@ experiences:
     start: Juin 2017
     end: Juil. 2017
     responsibilities:
-      - Finalisation de l'application
+      - Finalisation de l'application débutée en stage
       - Mise en recette
       - Rédaction de la documentation
   
