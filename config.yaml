@@ -1,4 +1,4 @@
-baseURL: https://www.benjamin-schmitt.fr
+baseURL: https://website.benjamin-schmitt.fr
 
 languageCode: en-us
 title: "Blog de Benjamin"
@@ -29,7 +29,7 @@ outputs:
     - JSON
 
 # Enable Google Analytics
-googleAnalytics: G-52SBMJ4NPH
+# googleAnalytics: G-52SBMJ4NPH
 
 # Enable global emoji support
 enableEmoji: true
