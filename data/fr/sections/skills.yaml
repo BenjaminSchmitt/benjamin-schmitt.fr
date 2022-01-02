@@ -1,0 +1,58 @@
+# section information
+section:
+  name: Compétences
+  id: skills
+  enable: true
+  weight: 5
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+skills:
+- name: Kubernetes
+  logo: /images/sections/skills/kubernetes.png
+  summary: 
+    "Création, exposition et exploitation de **clusters** Kubernetes.
+    **Déploiement** et exploitation d'applications dans Kubernetes (via **Helm**).
+    Utilisation des CRI **Docker** et **Containerd**."
+  url: "https://kubernetes.io/"
+
+- name: Développement C# - .NET Core
+  logo: /images/sections/skills/netcore.png
+  summary: 
+    "Développement et exploitation d'API **REST** et **gRPC** (philosophie microservices), d'applications consoles, 
+    avec une forte exigence de **maintenabilité**, de **testabilité**, de **sécurité** et de **scalabilité**. 
+    Intégration de nombreux **SDK** (MongoDB, SignalR, Firebase, mails ...) et de packages tiers pour augmenter la **productivité**."
+  url: "https://docs.microsoft.com/fr-fr/aspnet/core/?view=aspnetcore-6.0"
+
+- name: Azure
+  logo: /images/sections/skills/cloud.png
+  summary: 
+    "Exploitation d'une infrastructure complète Azure : utilisation des 
+    services **Application Gateway**, **AKS**, **CosmosDb**, **PostgreSQL**, **SignalR**, **log analytics**. 
+    **Supervision**, **alerting** et **Troubleshooting**.
+    Suivi et optimisation des coûts (**FinOps**) en collaboration avec le métier."
+  url: "https://azure.microsoft.com/fr-fr/"
+
+- name: Intégration et déploiement continu (CICD)
+  logo: /images/sections/skills/cicd.png
+  summary: 
+    "Connaissance et mise en oeuvre **pragmatique** des best practices CICD, avec comme objectif de **simplifier**
+    et de **fiabiliser** les releases.
+    Création et maintenance d'une **usine de build automatisée** cloud native (Tekton). 
+    Application des principes **GitOps** (Flux, Helm).
+    Utilisation de **Gihub Actions** à titre personnel.
+    Connaissances sur **Gitlab CI/CD**."
+
+- name: Linux
+  logo: /images/sections/skills/linux.png
+  summary: "Utilisation avancée des systèmes Linux basés sur Debian."
+  url: https://www.debian.org/index.fr.html
+
+- name: Git
+  logo: /images/sections/skills/git.png
+  summary: 
+    "Utilisation - évidemment - de git. 
+    Fonctionnement en mode **trunk-based**, avec des branches features / fixes **courtes**.
+    Utilisation de Github, des **Pull Requests** et des **revues de code** pour sécuriser les releases (développeurs juniors)."
+  url: "https://git-scm.com/"

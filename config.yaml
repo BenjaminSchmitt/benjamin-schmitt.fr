@@ -1,31 +1,24 @@
-baseURL: https://hugo-toha.github.io
+baseURL: https://website.benjamin-schmitt.fr
 
 languageCode: en-us
-title: "John's Blog"
+title: "Blog de Benjamin"
 theme: "toha"
 
 # Manage languages
 # For any more details, you can check the official documentation: https://gohugo.io/content-management/multilingual/
 languages:
-  en:
-    languageName: English
+  fr:
+    languageName: Français
     weight: 1
-  bn:
-    languageName: বাংলা
-    weight: 3
 
 # Force a locale to be use, really useful to develop the application ! Should be commented in production, the "weight" should rocks.
-# DefaultContentLanguage: bn
+DefaultContentLanguage: fr
 
-# Allow raw html in markdown file
 markup:
-  goldmark:
-    renderer:
-      unsafe: true
   tableOfContents:
-    startLevel: 2
+    startLevel: 1
     endLevel: 6
-    ordered: false
+    ordered: true
 
 # At least HTML and JSON are required for the main HTML content and
 # client-side JavaScript search
@@ -36,7 +29,7 @@ outputs:
     - JSON
 
 # Enable Google Analytics
-googleAnalytics: UA-122321624-2
+googleAnalytics: G-52SBMJ4NPH
 
 # Enable global emoji support
 enableEmoji: true
@@ -49,14 +42,14 @@ params:
   # Provide logos for your site. The inverted logo will be used in the initial
   # transparent navbar and the main logo will be used in the non-transparent navbar.
   logo:
-    main: /images/site/main-logo.png
-    inverted: /images/site/inverted-logo.png
-    favicon: /images/site/favicon.png
+    main: /images/site/benjamin-round.png
+    inverted: /images/site/benjamin-round.png
+    favicon: /images/site/benjamin-round.png
 
   # GitHub repo of your site
-  gitRepo: https://github.com/hugo-toha/hugo-toha.github.io
+  gitRepo: https://github.com/BenjaminSchmitt/benjamin-schmitt.fr
   # Default branch of your Git repo
-  gitBranch: source
+  gitBranch: master
 
   # Configure various features of this theme
   features:
@@ -81,7 +74,7 @@ params:
 
     # Enable & configure "Notes" features
     notes:
-      enable: true
+      enable: false
 
     # Enable comment feature. There, should be only one of them.
     comment:
@@ -131,10 +124,10 @@ params:
     # Show/hide newsletter section in the footer. Default is "true".
     # Currently, it supports "mailchimp".
     newsletter:
-      enable: true
+      enable: false
       provider: mailchimp
       mailchimpURL: https://github.us1.list-manage.com/subscribe/post?u=19de52a4603135aae97163fd8&amp;id=094a24c76e
 
     # Show/hide disclaimer notice in the footer. Default is "false".
     disclaimer:
-      enable: true
+      enable: false

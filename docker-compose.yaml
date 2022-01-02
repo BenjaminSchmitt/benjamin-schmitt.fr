@@ -1,0 +1,13 @@
+version: "3.0"
+services:
+  hugo:
+    image: klakegg/hugo:0.90.1-alpine
+    container_name: benjamin-schmitt.fr
+    volumes:
+      - .:/src
+    command: server --disableLiveReload=true --baseURL=https://website.benjamin-schmitt.fr --watch=false --appendPort=false --bind 0.0.0.0 --environment production
+    networks:
+      - reverseproxy
+networks:
+    reverseproxy:
+      external: true
