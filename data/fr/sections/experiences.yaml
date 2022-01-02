@@ -19,21 +19,21 @@ experiences:
   - designation: Tech lead
     start: Juil. 2020
     responsibilities:
-      - Poursuite des développements backend pour [Occazio](https://www.occazio.fr/)
-      - Migration d'[Occazio](https://www.occazio.fr/) sur le cloud [Azure](https://azure.microsoft.com/fr-fr/)
-      - Mise en production d'[Occazio](https://www.occazio.fr/)
+      - Poursuite des développements backend pour Occazio
+      - Migration d'Occazio sur le cloud [Azure](https://azure.microsoft.com/fr-fr/) 
+      - Optimisation des coûts d'exploitation (FinOps)
       - Reprise des domaines infrastructure, usine logicielle, CICD
-      - Optimisation des coûts d'exploitation (FinOps) d'[Occazio](https://www.occazio.fr/)
       - Amélioration de la qualité logicielle et normalisation des process de développement en collaboration avec l'équipe
-      - Encadrement technique, formation des arrivants
-      - Documentations
+      - Encadrement technique et formation des arrivants
+      - Veille
+      - Documentation
 
   - designation: Apprenti ingénieur DevOps
     start: Sept. 2017
     end: Juil. 2020
     responsibilities:
-      - "Création d'une startup interne: mobilier, infrastructure technique"
-      - "Spécification, développement, documentation, tests, supervision de Web APIs pour une application mobile"
+      - "Création d'une startup interne: mobilier et infrastructure technique"
+      - "Spécification, développement, documentation, tests de Web APIs pour Occazio"
       - "Exploitation des services OnPrem (avec [OpenShift](https://www.redhat.com/fr/technologies/cloud-computing/openshift))"
       - "Technologies: [.NET Core](https://docs.microsoft.com/en-us/dotnet/core/introduction), [MongoDB](https://www.mongodb.com/fr-fr), [PostgreSQL](https://www.postgresql.org/) 
         [gRPC](https://grpc.io/), [Kubernetes](https://kubernetes.io/)"

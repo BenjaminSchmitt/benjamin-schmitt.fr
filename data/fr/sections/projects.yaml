@@ -23,9 +23,8 @@ projects:
 - name: Occazio
   role: Lead tech
   timeline: "2018 - Aujourd'hui"
-  url: "https://www.occazio.fr/"
   summary: Application mobile de mise en relation entre acheteurs et vendeurs de véhicules d'occasion.
-  tags: ["pro", "C#", ".NET Core", "gRPC", "RabbitMQ", "Azure", "AKS", "CosmosDb"]
+  tags: ["pro", "C#", ".NET Core", "gRPC", "RabbitMQ", "Azure", "AKS", "CosmosDb", "SignalR"]
 
 - name: Reconnaissance d'orientation de voitures
   logo: /images/sections/projects/tensorflow.png
@@ -38,7 +37,7 @@ projects:
   timeline: "2021"
   logo: /images/sections/projects/ants.jpg
   summary: 
-    Exploitation et mise en qualité du fichier des véhicules immatriculés Français. 
+    Mise en qualité et exploitation du fichier des véhicules immatriculés Français. 
     Identification du véhicule sur base de son numéro d'immatriculation, puis croisement avec le référentiel [Argus](https://www.largus.fr/)
     pour cotations.
   tags: ["pro", "C#", ".NET Core", "PostgreSQL", "k8s"]
@@ -76,6 +75,5 @@ projects:
     Mise en place d'un [NAS](https://fr.wikipedia.org/wiki/Serveur_de_stockage_en_r%C3%A9seau) avec stratégie 
     de backup [3-2-1](https://www.backblaze.com/blog/the-3-2-1-backup-strategy/).
     Migration Gmail vers [Protonmail](https://protonmail.com/fr/).
-    Mise en place gestionnaire de mots de passe [Vaultwarden](https://github.com/dani-garcia/vaultwarden) (2FA, [fail2ban](https://www.fail2ban.org/wiki/index.php/Main_Page)) sur 
-    VPS [DigitalOcean](https://www.digitalocean.com/).
+    Mise en place gestionnaire de mots de passe [Vaultwarden](https://github.com/dani-garcia/vaultwarden) (2FA, [fail2ban](https://www.fail2ban.org/wiki/index.php/Main_Page)).
   tags: ["perso", "reseau", "securite"]

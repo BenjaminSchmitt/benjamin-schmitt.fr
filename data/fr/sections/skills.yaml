@@ -21,14 +21,14 @@ skills:
   logo: /images/sections/skills/netcore.png
   summary: 
     "Développement et exploitation d'API **REST** et **gRPC** (philosophie microservices), d'applications consoles, 
-    avec une forte exigence de **maintenabilité**, de **testabilité**, de **sécurité**, et **scalabilité**. 
-    Intégration de nombreux **SDK** (MongoDb, SignalR, Firebase, SignalR, mails) et de packages tiers pour augmenter la **productivité**."
+    avec une forte exigence de **maintenabilité**, de **testabilité**, de **sécurité** et de **scalabilité**. 
+    Intégration de nombreux **SDK** (MongoDB, SignalR, Firebase, mails ...) et de packages tiers pour augmenter la **productivité**."
   url: "https://docs.microsoft.com/fr-fr/aspnet/core/?view=aspnetcore-6.0"
 
 - name: Azure
   logo: /images/sections/skills/cloud.png
   summary: 
-    "Exploitation d'une infrastructure Azure pour une application complète: utilisation des 
+    "Exploitation d'une infrastructure complète Azure : utilisation des 
     services **Application Gateway**, **AKS**, **CosmosDb**, **PostgreSQL**, **SignalR**, **log analytics**. 
     **Supervision**, **alerting** et **Troubleshooting**.
     Suivi et optimisation des coûts (**FinOps**) en collaboration avec le métier."
@@ -54,5 +54,5 @@ skills:
   summary: 
     "Utilisation - évidemment - de git. 
     Fonctionnement en mode **trunk-based**, avec des branches features / fixes **courtes**.
-    Utilisation de Github et des **Pull Requests** et **revues de code** pour sécuriser les releases (développeurs juniors)."
+    Utilisation de Github, des **Pull Requests** et des **revues de code** pour sécuriser les releases (développeurs juniors)."
   url: "https://git-scm.com/"
