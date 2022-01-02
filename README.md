@@ -2,4 +2,4 @@
 
 Site web personnel, utilisant [Hugo](https://gohugo.io/) et le thème [Toha](https://toha-guides.netlify.app/).
 
-Disponible - bientôt - à l'adresse https://www.benjamin-schmitt.fr
+Disponible à l'adresse https://www.benjamin-schmitt.fr
